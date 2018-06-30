@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>angular-webpack</title>
+</head>
+<body>
+   <header class="ni-header-main-a">
+   	  <div class="ni-logo-a">
+   	  	 <img src="./images/logo-0.jpg" class="ni-logo-img-a">
+   	  </div>
+   	  <nav class="ni-nav-a">
+         <a href="#!/home" class="ni-nav-item-a">首页</a>
+   	  	<a href="#!/picture" class="ni-nav-item-a">图片</a>
+   	  	<a href="#!/video" class="ni-nav-item-a">秒拍</a>
+         <a href="#!/article" class="ni-nav-item-a">文章</a>
+
+   	  </nav>
+   	  <div class="ni-nav-login-a">
+   	  	<a href="#!/login" class="ni-nav-item-a">登陆</a>
+   	  </div>
+   </header>
+   <div class="ni-line-a"></div>
+   <main>
+   	  <div ng-view></div>
+   </main>
+   <footer class="ni-footer-a">
+   	  <p><i>niyang的空间</i></p>
+   </footer>
+   <script type="text/javascript" src="./bundle.js"></script>
+</body>
+</html>

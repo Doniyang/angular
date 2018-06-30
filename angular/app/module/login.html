@@ -1,0 +1,18 @@
+<div class="ni-container">
+	<div class="ni-float-box ni-box-show-a ni-box-size-a">
+		<form novalidate class="ni-form-ui">
+			<div class="ni-form-group">
+				<input type="text" ng-model="user.name" 
+				placeholder="用户名" class="ni-form-item" />
+			</div>
+			<div class="ni-form-group">
+				<input type="password" ng-model="user.password" 
+				placeholder="密码" class="ni-form-item" />
+			</div>
+			<div class="ni-form-group">
+				<button class="ni-btn" ng-click="Lo.Sigin()">登陆</button>
+			</div>
+			<p>{{user.name}}</p>
+		</form>
+	</div>
+</div>

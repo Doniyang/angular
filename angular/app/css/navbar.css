@@ -1,0 +1,42 @@
+.be-box{
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;	
+}
+.be-nav-bar{
+    position: relative;
+    border:none;
+    overflow: hidden;
+    list-style: none;
+    -webkit-box-sizing:border-box !important;
+    -moz-box-sizing:border-box !important;
+    box-sizing: border-box !important;	
+}
+
+.be-nav-bar-item{
+    float: left;
+    padding: 10px 25px;
+    display: block;
+}
+.be-nav-bar-item:hover{
+        color: #FFF;
+        background-color: #DEDEDE;
+}
+.be-nav-bar-item > a{
+      color: #000000;	
+      text-decoration: none;
+}
+
+
+.beui-nav-tree-bar{
+	
+}
+
+
+
+
+
+
+
+

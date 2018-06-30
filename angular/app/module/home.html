@@ -1,0 +1,42 @@
+<div class="ni-container-main" ng-cloak>
+	<div class="ni-box-a">
+		<div class="ni-home-module-name">
+		   <b>图片浏览</b>
+           <span class="ni-move-right-a ni-span-80">
+               <i>更多</i>
+           	   <a href="#" class="ni-triangle-a"></a>
+           </span>
+		</div>
+		<div class="ni-swiper-content">
+			<div class="ni-swiper-body" ng-swiper="{{ngSwiper}}">
+				<div ng-repeat="p in pictAry" class="ni-slide-tiem ni-flex-inline-box ni-box-show-b">
+				   <div class="ni-box-item-a">
+				      <p class="ni-text-center"><strong>{{p.content}}</strong></p>
+				   </div>
+				   <div class="ni-box-item-a">
+				      <div class="ni-flex-box ni-box-item-a ni-box-show-c">
+				   	     <img ng-src="{{p.url}}" class="ni-inline-box-item ni-corner-border"/>
+				      </div>
+				   </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="ni-blank-a"></div>
+	<div class="ni-box-a">
+		<div class="ni-home-module-name">
+		   <b>秒拍视频</b>
+           <span class="ni-move-right-a ni-span-80">
+               <i>更多</i>
+           	   <a href="#" class="ni-triangle-a"></a>
+           </span>
+		</div>
+		<div class="ni-flex-box ni-box-size-a ni-box-show-b">
+			<div class="ni-box-item-b" ng-repeat="v in videAry">
+			    <div class="ni-box-item-b ni-flex-inline-box ni-box-show-c">
+			    	<img ng-src="{{v.url}}" class="ni-box-item-b ni-corner-border" />
+			    </div>
+			</div>
+		</div>
+	</div>
+</div>

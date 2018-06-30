@@ -1,0 +1,54 @@
+<content class="date-box">
+         <header class="date-area ni-flex-box">
+         <ul class="date-container ni-flex-inline-box ni-box-show-a">
+         	          <li>
+         	          	   <a>
+         	          	         <i class="yan-trangle-left"></i>
+         	          	         <i class="yan-trangle-left"></i>
+         	          	    </a>
+         	          	    <a>
+         	          	    	<i class="yan-trangle-left"></i>
+         	          	    </a>
+         	          </li>
+         	          <li>{{year}}-{{month}}</li>
+         	          <li>
+         	                 <a>
+         	          	        <i class="yan-trangle-right"></i>
+         	          	    </a>    
+         	          	    <a>
+         	          	         <i class="yan-trangle-right"></i>
+         	          	         <i class="yan-trangle-right"></i>
+         	          	    </a>
+         	          </li>	
+         	  </ul>
+         	  <ul class="date-container date-week ni-flex-inline-box ni-box-show-a">
+         	        <li class="date-item">Sun</li>
+         	        <li class="date-item">Mon</li>
+         	        <li class="date-item">Tue</li>
+         	        <li class="date-item">Wen</li>
+         	        <li class="date-item">Tus</li>
+         	        <li class="date-item">Fri</li>
+         	        <li class="date-item">Sat</li>	
+         	  </ul>
+         </header> 
+         <main class="ni-flex-box">
+         	   <ul class="ni-flex-box date-main">
+         	       <li  class="date-item" ng-repeat="d in dateList track by $index">{{d}}</li>
+         	   </ul>
+         </main>
+         <footer>
+         	   <ul>
+         	        <li class="">
+         	        	  <button>取消</button>
+         	        </li>
+         	        <li class="">
+         	        	  <a>{{hours}}</a>
+         	        	  <a>{{minutes}}</a>
+         	        	  <a>{{seconds}}</a>
+         	        </li>
+         	        <li>
+         	        	<button>确定</button>
+         	        </li>	
+         	   </ul>
+         </footer>	
+</content>
